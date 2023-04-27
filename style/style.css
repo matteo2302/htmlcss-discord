@@ -1,11 +1,5 @@
 :root {
-  --space-s: rgb(255, 192, 203);
-  --space-m: rgb(30, 144, 255);
-  --space-l: rgb(34, 139, 34);
   --grey-back: rgb(246, 246, 246);
-  --foter-logos: rgb(255, 182, 193);
-  --footer-bg: rgb(35, 39, 42);
-  --info-bg: rgb(32, 178, 170);
 }
 * {
   box-sizing: border-box;
