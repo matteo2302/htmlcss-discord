@@ -2,7 +2,7 @@
   --space-s: rgb(255, 192, 203);
   --space-m: rgb(30, 144, 255);
   --space-l: rgb(34, 139, 34);
-  --grey-back: rgb(211, 211, 211);
+  --grey-back: rgb(246, 246, 246);
   --foter-logos: rgb(255, 182, 193);
   --footer-bg: rgb(35, 39, 42);
   --info-bg: rgb(32, 178, 170);
@@ -44,7 +44,7 @@
   height: 600px;
 }
 .main-end {
-  height: 1000px;
+  height: 1300px;
 }
 /*******************HEADER*****************************/
 header {
@@ -102,7 +102,7 @@ h1 {
 .head-subject p {
   font-size: 22px;
 }
-.button-top {
+.button {
   padding: 20px;
   border-radius: 30px;
   font-weight: 200;
@@ -134,7 +134,7 @@ h1 {
   justify-content: center;
 }
 h2 {
-  font-size: 55px;
+  font-size: 47px;
 }
 .text p {
   font-size: 20px;
@@ -143,12 +143,34 @@ h2 {
 .bgg {
   background-color: var(--grey-back);
 }
+/********************MAIN SECTION END***************************/
 .last-content {
-  background-color: var(--space-l);
   width: 100%;
   height: 100%;
-  border: 2px dashed black;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
+.last-content h2 {
+  padding: 30px;
+}
+.btn-main {
+  margin-top: 40px;
+  background-color: rgb(142, 161, 225);
+  color: white;
+}
+h3 {
+  font-size: 30px;
+  background-image: url(../img/stars.svg);
+  display: inline;
+  background-size: 562px;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 37px 60px 0px 60px;
+}
+/****************************footer*********************************/
 footer {
   background-color: var(--footer-bg);
   height: 650px;
@@ -191,7 +213,8 @@ footer {
   justify-content: space-between;
   align-items: center;
 }
-.button,
+/*.button*/
+
 .logo {
   background-color: rgb(255, 182, 193);
   border: 2px dashed black;
@@ -200,6 +223,6 @@ footer {
 .logo {
   width: 70px;
 }
-.button {
+/*.button {
   width: 100px;
-}
+}*/
