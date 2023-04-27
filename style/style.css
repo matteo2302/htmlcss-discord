@@ -1,0 +1,144 @@
+:root {
+  --space-s: rgb(255, 192, 203);
+  --space-m: rgb(30, 144, 255);
+  --space-l: rgb(34, 139, 34);
+  --grey-back: rgb(211, 211, 211);
+  --foter-logos: rgb(255, 182, 193);
+  --footer-bg: rgb(35, 39, 42);
+  --info-bg: rgb(32, 178, 170);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1180px;
+  height: 500px;
+}
+.container-end {
+  width: 1180px;
+  height: 900px;
+}
+.footer-container-top {
+  width: 1180px;
+  height: 500px;
+  display: flex;
+}
+.flex-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-section {
+  height: 600px;
+}
+.main-end {
+  height: 1000px;
+}
+.head-top {
+  min-height: 80px;
+  background-color: rgb(173, 216, 230);
+}
+.head-nav {
+  height: 50px;
+  background-color: rgb(218, 165, 32);
+  width: 1200px;
+}
+.head-logo,
+.head-link,
+.head-login {
+  border: 2px dashed black;
+  height: 50px;
+  flex-grow: 1;
+}
+.head-link {
+  width: 50%;
+}
+.head-main {
+  height: 500px;
+  background-color: rgb(0, 0, 139);
+}
+.head-subject {
+  width: 900px;
+  height: 400px;
+  background-color: rgb(238, 130, 238);
+  border: 2px dashed black;
+}
+.photo {
+  background-color: var(--space-m);
+  width: 60%;
+  height: 100%;
+  border: 2px dashed black;
+}
+.text {
+  background-color: var(--space-s);
+  width: 40%;
+  height: 100%;
+  border: 2px dashed black;
+}
+.bgg {
+  background-color: var(--grey-back);
+}
+.last-content {
+  background-color: var(--space-l);
+  width: 100%;
+  height: 100%;
+  border: 2px dashed black;
+}
+footer {
+  background-color: var(--footer-bg);
+  height: 650px;
+}
+.footer-top {
+  height: 550px;
+  border-bottom: 1px solid white;
+  display: flex;
+  padding-top: 15px;
+  justify-content: center;
+}
+.social {
+  width: 30%;
+  height: 100%;
+  background-color: rgb(240, 128, 128);
+}
+.info-box {
+  border: 2px dashed black;
+  width: 70%;
+  height: 100%;
+  display: flex;
+}
+.info {
+  background-color: var(--info-bg);
+
+  width: calc(100% / 4);
+  border: 2px dashed white;
+}
+.footer-end {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.footer-container-end {
+  height: 70px;
+  width: 1180px;
+  background-color: rgb(127, 255, 212);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.button,
+.logo {
+  background-color: rgb(255, 182, 193);
+  border: 2px dashed black;
+  height: 40px;
+}
+.logo {
+  width: 70px;
+}
+.button {
+  width: 100px;
+}
