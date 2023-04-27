@@ -172,8 +172,29 @@ h3 {
 }
 /****************************footer*********************************/
 footer {
-  background-color: var(--footer-bg);
   height: 650px;
+  background-color: rgb(35, 39, 42);
+}
+footer h2 {
+  font-size: 35px;
+  color: rgb(114, 137, 218);
+}
+footer p {
+  font-size: 15px;
+  color: white;
+  padding: 15px 0;
+}
+.ita-flag {
+  width: 20px;
+}
+.fa-angle-down {
+  font-size: 15px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  padding-right: 8px;
+  font-size: 20px;
 }
 .footer-top {
   height: 550px;
@@ -185,18 +206,22 @@ footer {
 .social {
   width: 30%;
   height: 100%;
-  background-color: rgb(240, 128, 128);
+}
+li {
+  color: white;
+  margin: 15px 0;
+  font-size: 20px;
+}
+ul :first-child {
+  color: rgb(114, 137, 218);
 }
 .info-box {
-  border: 2px dashed black;
   width: 70%;
   height: 100%;
   display: flex;
 }
 .info {
-  background-color: var(--info-bg);
   width: calc(100% / 4);
-  border: 2px dashed white;
 }
 .footer-end {
   height: 100px;
