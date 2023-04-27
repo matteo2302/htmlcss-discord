@@ -5,10 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Document</title>
   </head>
   <body>
     <header>
+      <!-- HEAD TOP-->
       <div class="head-top flex-centered">
         <div class="head-nav">
           <img class="head-logo" src="img/logo.svg" alt="logo" />
@@ -24,8 +32,9 @@
           <button class="head-login">accedi</button>
         </div>
       </div>
+      <!-- HEAD BODY-->
       <div class="head-main flex-centered">
-        <div class="head-subject flex-column-centered">
+        <div class="head-subject">
           <h1>Il tuo posto per parlare</h1>
           <p>
             che tu faccia parte di un club scolastico, gruppo di gamer, comunita
@@ -33,12 +42,20 @@
             che vuole passare il tempo insieme, Discord rende più facile
             chiacchierare ogni giorno e ritrovarsi più spesso.
           </p>
-          <button>Scarica per il Mac</button>
-          <button>Apri Discord nel tuo browser</button>
+          <div>
+            <button class="button-top">
+              <i class="fa-solid fa-arrow-down"></i>Scarica per il Mac
+            </button>
+
+            <button class="button-top browser">
+              Apri Discord nel tuo browser
+            </button>
+          </div>
         </div>
       </div>
     </header>
     <main>
+      <!-- MAIN SECTION-->
       <div class="main-section flex-centered">
         <div class="container flex-centered">
           <div class="photo"></div>

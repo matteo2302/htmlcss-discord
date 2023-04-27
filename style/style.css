@@ -12,8 +12,9 @@
   margin: 0;
   padding: 0;
   font-size: 18px;
+  font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
+/*************************UTILITY***********************************/
 .container {
   width: 1180px;
   height: 500px;
@@ -45,7 +46,7 @@
 .main-end {
   height: 1000px;
 }
-/*******************header*****************************/
+/*******************HEADER*****************************/
 header {
   background-image: url(../img/jumbo.png);
   background-size: cover;
@@ -55,7 +56,7 @@ header {
 ul {
   list-style: none;
 }
-
+/*********************HEAD TOP*************************/
 .head-top {
   min-height: 80px;
 }
@@ -84,13 +85,38 @@ ul {
 .head-main {
   height: 500px;
 }
+/*****************************HEAD MAIN***********************/
+h1 {
+  font-size: 60px;
+}
 .head-subject {
   width: 900px;
   height: 400px;
-  background-color: rgb(238, 130, 238);
-  border: 2px dashed black;
+
+  display: flex;
+  flex-direction: column;
   justify-content: space-around;
+  align-items: center;
+  text-align: center;
 }
+.head-subject p {
+  font-size: 20px;
+}
+.button-top {
+  padding: 20px;
+  border-radius: 30px;
+  font-weight: 200;
+  border: none;
+}
+.browser {
+  background-color: rgb(35, 39, 42);
+  color: white;
+}
+
+.fa-solid {
+  padding: 0 10px;
+}
+/********************** MAIN SECTION********************************/
 .photo {
   background-color: var(--space-m);
   width: 60%;
